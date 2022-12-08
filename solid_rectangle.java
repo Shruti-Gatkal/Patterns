@@ -8,8 +8,8 @@ class solid_rectangle{
         System.out.print("Enter no. of columns:");
         int col=sc.nextInt();
         sc.close();
-        for(int i=0;i<row;i++){
-            for(int j=0;j<col;j++){
+        for(int i=1;i<=row;i++){
+            for(int j=1;j<=col;j++){
                 System.out.print("*");
             }
             System.out.println();
